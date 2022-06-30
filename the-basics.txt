@@ -1,0 +1,14 @@
+1. Buat folder bernamagit-basic <mkdir git-basic>
+2. cd ke dalam git-basicfolder < cd git-basic >
+3. Buat file bernamafirst.txt < touch first.txt>
+4. Inisialisasi repositori git kosong <git init>
+5. Tambahkan first.txtke area pementasan < git add first.txt >
+6. Komit dengan pesan "menambahkan first.txt" <git commit-m "menambahkan first.txt">
+7. Periksa komit Anda dengan git log < git log >
+8. Buat file lain bernama second.txt < touch second.txt >
+9. Tambahkan second.txtke area pementasan < git add second.txt>
+10.Komit dengan pesan "menambahkan second.txt" <git commit-m " menambahkan second.txt">
+11.Hapus first.txt file <git rm frist.txt>
+12.Tambahkan perubahan ini ke area pementasan <git add-u>
+13.Komit dengan pesan "menghapus first.txt" < git commit-m "menghapus first.txt">
+14.Periksa komit Anda menggunakan git log < git log --oneline >
